@@ -1,0 +1,7 @@
+{
+  "blizzard_wind": {
+    "sounds": [
+      { "name": "simine:blizzard_wind", "stream": true }
+    ]
+  }
+}
