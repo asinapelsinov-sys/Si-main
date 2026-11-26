@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blizzardmod",
+  "version": "${version}",
+  "name": "Blizzard",
+  "description": "Adds a new weather: Blizzard. Custom snow particles and freezing damage for players that are not under cover.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.blizzardmod.BlizzardMod"],
+    "client": ["com.example.blizzardmod.client.BlizzardClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
